@@ -1,0 +1,106 @@
+.main-window
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.sidebar
+{
+    left: 0%;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(30, 94, 5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    flex-direction: column;
+}
+
+.img-container
+{
+    content: "\2B22";
+    width: 50%;
+    height: 20%;
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background-color: white;
+    border: 1px solid white;
+}
+
+.cv-img
+{
+    width: 130px;
+    height: 130px;
+}
+
+.sidebar ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul p
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sidebar ul li
+{
+    margin-top: 10px;
+    list-style: none;
+    color: gray;
+    font-size: 10px;
+}
+
+
+
+
+/* Main Portion */
+
+.cv-main
+{
+    position: absolute;
+    width: 80%;
+    flex-direction: column;
+    left: 23%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.cv-main h2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.cv-main ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main-ul-1 p
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-ul-1 li
+{
+    left: 0%;
+    margin-top: 5px;
+    list-style: none;
+    color: gray;
+    font-size: 14px;
+}
